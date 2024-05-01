@@ -19,10 +19,14 @@ If you select Private endpoint you will be given the additional options for conf
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/d03b37ad-31c8-4e18-bfc5-04310a40efc7)
 
 Next, create you appliance by giving the appliance a name and the generating the key, as you can see from the drop down the appliance needs to be configured for which ever environment you are wanting to assess.  You have the ability to create a discovery appliance for:
-	VMware environment
-	Hyper V environment 
-	Physical + other (AWS, GCP etc)
-For the lab I have created you will need to select > Physical + Other (AWS, GCP etc)
+	
+ VMware environment
+	
+ Hyper V environment 
+	
+ Physical + other (AWS, GCP etc)
+
+For the lab I have created you will need to select > **Physical + Other (AWS, GCP etc)**
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/f0625a60-30a5-4e02-9a0b-606347fb8630)
 
@@ -68,21 +72,25 @@ For my lab the selections below were used
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/cb9d54b2-141e-464b-b6da-f8a99ffaeaa9)
 
 
-In step 1 download the replication appliance software & the registration key, copy that to your windows 2016 server and install the software.
+In **step 1** download the replication appliance software & the registration key, copy that to your windows 2016 server and install the software.
 After the installation finishes, the Appliance configuration wizard launches automatically. (You can also launch the wizard manually by using the cspsconfigtool shortcut that was created on the appliance desktop.)
 
 In this lab, I manually installed the Mobility service on the source VMs to be replicated (covered in next section). 
+
 You need to create a dummy account in this step to proceed. For your dummy account, use "guest" as the friendly name, "username" as the username, and "password" as the password for the account. You use this dummy account in the Enable Replication stage.
+
 After the appliance restarts after setup, in Discover machines, select the new appliance in Select Configuration Server. Then select Finalize registration. The Finalize registration step performs a couple of final tasks to prepare the replication appliance.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/0a1f8b1f-b1e9-49da-a0c9-f7d4c091032c)
 
 
-Mobility Agent Replication
-Copy the mobility agent package to a location c:\program files (x86)\Microsoft Azure Site Recovery\ 
-The location of the file is located on the replication appliance: C:\ProgramData\ASR\home\svsystems\pushinstallsvc\repository
+**Mobility Agent Replication**
+Copy the mobility agent package to a location **C:\program files (x86)\Microsoft Azure Site Recovery\***
+
+The location of the file is located on the replication appliance: **C:\ProgramData\ASR\home\svsystems\pushinstallsvc\repository***
+
 Run the following command to un pack the file 
-.\Microsoft-ASR_UA*Windows*release.exe /q /x:"C:\Program Files (x86)\Microsoft Azure Site Recovery"
+**.\Microsoft-ASR_UA*Windows*release.exe /q /x:"C:\Program Files (x86)\Microsoft Azure Site Recovery"**
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/0f83a26d-cc74-4559-9f65-a80b5b0448ae)
 
@@ -94,12 +102,12 @@ Select Install mobility install
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/f7c973d6-6af2-4333-8fcd-9146fcb6f48e)
 
 
-Leave the file location default & click Install
+Leave the file location default & click **Install**
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/0c244656-b1ce-42a0-bebc-0d91c132642f)
 
 
-The mobility agent will then be installed, once complete select the Proceed to Configuration button 
+The mobility agent will then be installed, once complete select the **Proceed to Configuration** button 
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/8a46477b-a36d-40d9-9513-73cbf36547cc)
 
@@ -109,7 +117,8 @@ Enter the IP address & Connection Passphrase of the configuration server
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/a681d3de-e663-4001-9058-54cf60ab0ec1)
 
  
-The Connection Passphrase can be found on the configuration server.  On the desktop you should have a shortcut called Cspsconfigtool.  Double click the shortcut to launch the configuration tool.  
+The Connection Passphrase can be found on the configuration server.  On the desktop you should have a shortcut called Cspsconfigtool. Double click the shortcut to launch the configuration tool.  
+
 Once the configuration tool is launched navigate to the ConfigurationDetails tab.  The Passphrase is protected but can be viewed by running the following command
 C:\Program Files (x86)\Microsoft Azure Site Recovery> genpassphrase.exe -n
 
