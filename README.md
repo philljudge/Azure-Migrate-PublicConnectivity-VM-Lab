@@ -4,7 +4,7 @@ Create project In Azure
 
 Azure Migrate > Servers , Databases and Web apps 
 
-Select a **Subscriptio**n, **Resource group**, **Project** name and **Geography**
+Select a **Subscriptio**n, **Resource group**, **Project** name and **Geography**.
 Under advanced chose the connectivity method you would like to use.  The options are Public Endpoint & Private Endpoint. 
 The public endpoint will communicate with azure and send data over the internet and the private option will send the data over private connectivity. 
 
@@ -31,7 +31,7 @@ For the lab I have created you will need to select > **Physical + Other (AWS, GC
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/f0625a60-30a5-4e02-9a0b-606347fb8630)
 
 
-Once the key is generated you can then download the Azure Migrate Appliance
+Once the key is generated you can then download the Azure Migrate Appliance.
 
 # <ins>Discovery Appliance</ins>
  
@@ -52,7 +52,7 @@ On the desktop of the server double click > Azure Migrate Appliance Configuratio
 
 The appliance will check for updates and may take up to 10 minutes to finish configuring. Paste the key that was provided in the steps earlier and click verify. 
 
-Once the Appliance is verified login with your Azure account.  Please refer to the documentation for the required permissions
+Once the Appliance is verified login with your Azure account.  Please refer to the documentation for the required permissions.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/5ef0107e-c046-4cd3-bd73-677c2160a251)
 
@@ -62,21 +62,21 @@ If you can’t remember the key you can obtained this in the Azure portal
 # <ins>Server Replication</ins>
 
 To replicate the server in the lab I deployed I needed to use a replication appliance.  One of the pre-requisites for this is a new windows server 2016 onwards with sizing according to the guidance  (needs adding to github)
-To do this navigate to Azure Migrate home screen and select Servers, databases and web apps
+To do this navigate to Azure Migrate home screen and select Servers, databases and web apps.
 
-Select **Discover** under migration tools
+Select **Discover** under migration tools.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/8e981b43-de53-4643-874c-fa56e367eb70)
 
   
 In the drop down selections select what you want to migrate to, what type of machines they are, target region & if you would like to install a new replication appliance or scale out appliance.  
-For my lab the selections below were used
+For my lab the selections below were used.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/cb9d54b2-141e-464b-b6da-f8a99ffaeaa9)
 
 
 In **step 1** download the replication appliance software & the registration key, copy that to your windows 2016 server and install the software.
-After the installation finishes, the Appliance configuration wizard launches automatically. (You can also launch the wizard manually by using the cspsconfigtool shortcut that was created on the appliance desktop.)
+After the installation finishes, the Appliance configuration wizard launches automatically. (You can also launch the wizard manually by using the cspsconfigtool shortcut that was created on the appliance desktop)
 
 In this lab, I manually installed the Mobility service on the source VMs to be replicated (covered in next section). 
 
@@ -195,7 +195,10 @@ In Azure Migrate navigate to the Migrate option
 
 
 
-This will take you to a list of server that can be migrated.  Select the machine you would like to migrate.  Notice the option for target OS. The Azure Migrate tool also allows you to upgrade the OS as part of the process.  
+This will take you to a list of server that can be migrated.  Select the machine you would like to migrate.  Notice the option for target OS. 
+
+The Azure Migrate tool also allows you to upgrade the OS as part of the process.  
+
 Additionally take note of the option to select if you want to shut down the machine before the migration to minimise data loss.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/b9a66823-4645-43a2-b401-71352b08ddca)
