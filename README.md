@@ -4,7 +4,7 @@ Create project In Azure
 
 Azure Migrate > Servers , Databases and Web apps 
 
-Select a subscription, resource group, project name and Geography
+Select a **Subscriptio**n, **Resource group**, **Project** name and **Geography**
 Under advanced chose the connectivity method you would like to use.  The options are Public Endpoint & Private Endpoint. 
 The public endpoint will communicate with azure and send data over the internet and the private option will send the data over private connectivity. 
 
@@ -48,8 +48,11 @@ Once you have logged in the appliance will launch the landing page, enter the pr
 
 
 
-On the desktop of the server double click > Azure Migrate Appliance Configuration Manager this will launch the Appliance configuration manager.  The appliance will check for updates and may take up to 10 minutes to finish configuring. Paste the key that was provided in the steps earlier and click verify.  Once the Appliance is verified login with your Azure account.  
-Please refer to the documentation for the required permissions
+On the desktop of the server double click > Azure Migrate Appliance Configuration Manager this will launch the Appliance configuration manager.  
+
+The appliance will check for updates and may take up to 10 minutes to finish configuring. Paste the key that was provided in the steps earlier and click verify. 
+
+Once the Appliance is verified login with your Azure account.  Please refer to the documentation for the required permissions
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/5ef0107e-c046-4cd3-bd73-677c2160a251)
 
