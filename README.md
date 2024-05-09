@@ -64,9 +64,9 @@ The Appliance will then verify the login with your Azure account.  Please refer 
 
 If you can’t remember the key you can obtained this in the Azure portal 
 
-# <ins>Server Replication</ins>
+# <ins>Replication Appliance</ins>
 
-To replicate the servers in the lab I deployed a replication appliance.  One of the pre-requisites for this is a new windows server 2016 onwards with sizing according to the guidance  (needs adding to github)
+To replicate the servers in the lab a replication server was deployed and configured.  One of the pre-requisites for this is a new windows server 2016 onwards with sizing according to the guidance  (needs adding to github)
 
 To do this navigate to Azure Migrate home screen and select Servers, databases and web apps.
 
@@ -93,7 +93,9 @@ After the appliance restarts after setup, in Discover machines, select the new a
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/0a1f8b1f-b1e9-49da-a0c9-f7d4c091032c)
 
 
-</br>**Mobility Agent Replication**
+# <ins>**Mobility Agent Installation**</ins>
+
+The below steps need to be completed on the servers that you would like to relicate.
 
 Copy the mobility agent package to a location **C:\program files (x86)\Microsoft Azure Site Recovery\***
 
