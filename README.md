@@ -12,7 +12,7 @@ Under advanced chose the connectivity method you would like to use.  The options
 The public endpoint will communicate with azure and send data over the internet and the private option will send the data over private connectivity. 
 
 
-</br>A VPN or express route will be needed for this configuration.  For the purpose of the test a public endpoint was selected.
+</br>A VPN or express route will be needed for Private Endpoint configuration.  For the purpose of the test a public endpoint was selected.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/17df7bae-fa4e-4577-b368-697e48191317)
 
