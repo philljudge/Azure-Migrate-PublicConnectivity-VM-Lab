@@ -3,6 +3,14 @@
 <div align="justify">For this project I used a windows 11 Machine at home running Hyper-V.  In Hyper V I have a Domain Cntroller, Windows Server acting as a router, File Server, SQL Server & Azure migrate appliances.  The Hyper-V Lab is connected to Azure using a VPN connection which terminates in Azure inside a VWAN Hub.
 
 
+
+
+
+
+
+
+
+
 **Create project In Azure**
 
 Azure Migrate > Servers , Databases and Web apps 
