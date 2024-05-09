@@ -95,7 +95,7 @@ After the appliance restarts after setup, in Discover machines, select the new a
 
 # <ins>**Mobility Agent Installation**</ins>
 
-The below steps need to be completed on the servers that you would like to relicate.
+The below steps need to be completed on the servers that you would like to replicate.
 
 Copy the mobility agent package to a location **C:\program files (x86)\Microsoft Azure Site Recovery\***
 
