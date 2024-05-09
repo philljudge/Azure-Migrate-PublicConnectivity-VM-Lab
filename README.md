@@ -93,7 +93,7 @@ After the appliance restarts after setup, in Discover machines, select the new a
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/0a1f8b1f-b1e9-49da-a0c9-f7d4c091032c)
 
 
-**Mobility Agent Replication**
+</br>**Mobility Agent Replication**
 Copy the mobility agent package to a location **C:\program files (x86)\Microsoft Azure Site Recovery\***
 
 The location of the file is located on the replication appliance: **C:\ProgramData\ASR\home\svsystems\pushinstallsvc\repository***
