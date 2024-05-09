@@ -110,7 +110,7 @@ Run the following command to un pack the file
 Run the below command to setup the agent in legacy mode
 **.\UnifiedAgentInstaller.exe /CSType CSLegacy**
 
-Select Install mobility install
+Select **Install mobility install**
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/f7c973d6-6af2-4333-8fcd-9146fcb6f48e)
 
