@@ -152,7 +152,7 @@ In the migration tools section select **Replicate** as shown in the diagram bewl
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/8b14a970-ab28-4796-8990-583c389fd046)
 
-Follow the screen shots below to setup the replication of the servers.
+Follow the screen shots below to setup the replication of the servers:
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/a2d5d33b-5783-4cec-9ab0-73452cf0afc4)
 
@@ -172,7 +172,7 @@ Follow the screen shots below to setup the replication of the servers.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/9958a446-d28b-4c11-a53e-a9645f1ee13f)
 
-Test Failover
+Once the replication is setup and the server has a full replica in place you can run a Test Failover to ensure that the servcie is working.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/e1daa11d-fe4c-465c-981a-1ed3f49e47c2)
 
