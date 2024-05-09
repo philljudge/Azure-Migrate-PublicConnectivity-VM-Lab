@@ -94,6 +94,7 @@ After the appliance restarts after setup, in Discover machines, select the new a
 
 
 </br>**Mobility Agent Replication**
+
 Copy the mobility agent package to a location **C:\program files (x86)\Microsoft Azure Site Recovery\***
 
 The location of the file is located on the replication appliance: **C:\ProgramData\ASR\home\svsystems\pushinstallsvc\repository***
