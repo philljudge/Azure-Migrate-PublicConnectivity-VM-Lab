@@ -99,7 +99,7 @@ The below steps need to be completed on the servers that you would like to repli
 
 Copy the mobility agent package to a location **C:\program files (x86)\Microsoft Azure Site Recovery\***
 
-The location of the file is located on the replication appliance: **C:\ProgramData\ASR\home\svsystems\pushinstallsvc\repository***
+The location of the file is located on the replication appliance: **C:\ProgramData\ASR\home\svsystems\pushinstallsvc\repository**
 
 Run the following command to un pack the file 
 **.\Microsoft-ASR_UA*Windows*release.exe /q /x:"C:\Program Files (x86)\Microsoft Azure Site Recovery"**
