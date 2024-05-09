@@ -57,7 +57,7 @@ On the desktop of the server double click > **Azure Migrate Appliance Configurat
 
 The appliance will check for updates and may take up to 10 minutes to finish configuring. Paste the key that was provided in the steps earlier and click verify. 
 
-Once the Appliance is verified login with your Azure account.  Please refer to the documentation for the required permissions.
+The Appliance will then verify the login with your Azure account.  Please refer to the Azure Migrate documentation for the required permissions.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/5ef0107e-c046-4cd3-bd73-677c2160a251)
 
@@ -140,13 +140,18 @@ Once you have entered the passphrase click Finish
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/d6025d9c-21a6-441d-8a8a-99f49994b955)
 
 
-
 # <ins>VM Replication</ins>
- 
+
+To start the replication process navigate to Azure Migrate in the portal.  Select Servers, databases and web apps 
+
+In the migration tools section select **Replicate** as shown in the diagram bewlow.
+
+![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/8b14a970-ab28-4796-8990-583c389fd046)
+
+Follow the screen shots below to setup the replication of the servers.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/a2d5d33b-5783-4cec-9ab0-73452cf0afc4)
 
- 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/d589685e-abd7-4a71-a1af-166b64c185da)
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/ff66675a-f3c2-4609-a0f1-8c1e1ed0f3e0)
@@ -159,14 +164,9 @@ Once you have entered the passphrase click Finish
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/a7d43712-f011-4fde-8683-d21588815a15)
 
-
-Check replication status
-
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/c7888045-00a9-4366-8d4d-53b6720fa0b6)
 
- 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/9958a446-d28b-4c11-a53e-a9645f1ee13f)
-
 
 Test Failover
 
