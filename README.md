@@ -43,7 +43,6 @@ Copy the AzureMigrateInstaller.zip you have unzip the files you have downloaded 
 To install the software follow the screen shots below.
  
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/de7ebb2e-ae27-47cf-bc10-93535bf25897)
- 
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/39fac481-1cbb-4158-8d65-6aa0f73f38d6)
 
@@ -51,8 +50,7 @@ To install the software follow the screen shots below.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/b7dcada0-7f17-479f-a439-2cf07c4a6277)
 
-Once you have logged in the appliance will launch the landing page, enter the project key that was created earlier in the appliance creation section.  
-
+Once you have logged in, the appliance will launch the landing page, enter the project key that was created earlier in the appliance creation section.  
 
 
 On the desktop of the server double click > **Azure Migrate Appliance Configuration Manager** this will launch the Appliance configuration manager.  
@@ -68,7 +66,8 @@ If you can’t remember the key you can obtained this in the Azure portal
 
 # <ins>Server Replication</ins>
 
-To replicate the server in the lab I deployed I needed to use a replication appliance.  One of the pre-requisites for this is a new windows server 2016 onwards with sizing according to the guidance  (needs adding to github)
+To replicate the servers in the lab I deployed a replication appliance.  One of the pre-requisites for this is a new windows server 2016 onwards with sizing according to the guidance  (needs adding to github)
+
 To do this navigate to Azure Migrate home screen and select Servers, databases and web apps.
 
 Select **Discover** under migration tools.
