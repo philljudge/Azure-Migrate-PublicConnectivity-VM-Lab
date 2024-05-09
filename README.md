@@ -12,7 +12,7 @@ Under advanced chose the connectivity method you would like to use.  The options
 The public endpoint will communicate with azure and send data over the internet and the private option will send the data over private connectivity. 
 
 
-</br>A VPN or express route will be needed for this configuration.  For the purpose of the  test a public endpoint was selected.
+</br>A VPN or express route will be needed for this configuration.  For the purpose of the test a public endpoint was selected.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/17df7bae-fa4e-4577-b368-697e48191317)
 
@@ -40,7 +40,7 @@ Once the key is generated you can then download the Azure Migrate Appliance.
 
 Copy the AzureMigrateInstaller.zip you have unzip the files you have downloaded and unzip the files on the physical or virtual server that you are going to confure as the discovery appliance.  For my lab I used a virtual machine running on Hyper-V.
 
-To install the software follow the screen shots below.
+To install the software follow the screen shots below:
  
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/de7ebb2e-ae27-47cf-bc10-93535bf25897)
 
@@ -144,7 +144,7 @@ Once you have entered the passphrase click Finish
 
 To start the replication process navigate to Azure Migrate in the portal.  Select Servers, databases and web apps 
 
-In the migration tools section select **Replicate** as shown in the diagram bewlow.
+In the migration tools section select **Replicate** as shown in the diagram bewlow:
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/8b14a970-ab28-4796-8990-583c389fd046)
 
