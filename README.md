@@ -7,12 +7,12 @@ For this project I used a windows 11 Machine at home running Hyper-V.  In Hyper 
 
 Azure Migrate > Servers , Databases and Web apps > creat project
 
-<div align="justify">Select a **Subscriptio**n, **Resource group**, **Project** name and **Geography**.
+<div align="justify">Select a Subscription, Resource group, Project name & Geography
 Under advanced chose the connectivity method you would like to use.  The options are Public Endpoint & Private Endpoint. 
 The public endpoint will communicate with azure and send data over the internet and the private option will send the data over private connectivity. 
 
-A VPN or express route will be needed for this configuration.
-For the purpose of the  test a public endpoint was selected.
+
+</br>A VPN or express route will be needed for this configuration.  For the purpose of the  test a public endpoint was selected.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/17df7bae-fa4e-4577-b368-697e48191317)
 
