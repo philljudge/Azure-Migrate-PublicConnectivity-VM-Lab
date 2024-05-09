@@ -39,6 +39,8 @@ Once the key is generated you can then download the Azure Migrate Appliance.
 # <ins>Discovery Appliance</ins>
 
 Copy the AzureMigrateInstaller.zip you have unzip the files you have downloaded and unzip the files on the physical or virtual server that you are going to confure as the discovery appliance.  For my lab I used a virtual machine running on Hyper-V.
+
+To install the software follow the screen shots below.
  
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/de7ebb2e-ae27-47cf-bc10-93535bf25897)
  
