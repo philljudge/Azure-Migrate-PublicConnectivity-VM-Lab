@@ -5,7 +5,7 @@ For this project I used a windows 11 Machine at home running Hyper-V.  In Hyper 
 
 **Create project In Azure**
 
-Azure Migrate > Servers , Databases and Web apps > creat project
+Azure Migrate > Servers , Databases and Web apps > create project
 
 <div align="justify">Select a Subscription, Resource group, Project name & Geography
 Under advanced chose the connectivity method you would like to use.  The options are Public Endpoint & Private Endpoint. 
@@ -37,6 +37,8 @@ For the lab I have created you will need to select > **Physical + Other (AWS, GC
 Once the key is generated you can then download the Azure Migrate Appliance.
 
 # <ins>Discovery Appliance</ins>
+
+Copy the AzureMigrateInstaller.zip you have unzip the files you have downloaded and unzip the files on the physical or virtual server that you are going to confure as the discovery appliance.  For my lab I used a virtual machine running on Hyper-V.
  
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/de7ebb2e-ae27-47cf-bc10-93535bf25897)
  
@@ -51,7 +53,7 @@ Once you have logged in the appliance will launch the landing page, enter the pr
 
 
 
-On the desktop of the server double click > Azure Migrate Appliance Configuration Manager this will launch the Appliance configuration manager.  
+On the desktop of the server double click > **Azure Migrate Appliance Configuration Manager** this will launch the Appliance configuration manager.  
 
 The appliance will check for updates and may take up to 10 minutes to finish configuring. Paste the key that was provided in the steps earlier and click verify. 
 
