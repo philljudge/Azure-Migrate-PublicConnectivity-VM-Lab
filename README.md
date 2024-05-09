@@ -197,7 +197,7 @@ Clean up resources
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/571bd3ee-b782-4cd4-8dab-f218feac9ad6)
 
-# <ins>Migrate VM</ins>
+# <ins>Migrate Virtual Machine</ins>
 
 In Azure Migrate navigate to the Migrate option 
 
