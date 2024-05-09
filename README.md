@@ -221,10 +221,14 @@ Additionally take note of the option to select if you want to shut down the mach
  
 
 # <ins>Unable to RDP to Migrated VM</ins> 
+
+After the migration of my machine had completed I had issues connecting to the server in Azure.  To fix the issue on my test migration server I had to change a registry key to enable RDP on the server.
  
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/b695d879-eb74-4bde-8961-7c8bfa3341e3)
 
 # <ins>Test folder access to file share on VM migrated to Azure</ins>
+
+The file share virtual machine had successfully failed over, the last thing to test was the i could still connecto the file share from my test lab running on Hyper-V.  On one of my servers in the lab I navigated to a test share that I created before the migration.  As you can see from the screen shot below, access to the file share is still working even though the server is now running in Azure.
  
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/00e1ad08-ebb6-421a-959f-36f622e9ffb0)
 </div> 
