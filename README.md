@@ -77,6 +77,7 @@ Select **Discover** under migration tools.
 
   
 In the drop down selections select what you want to migrate to, what type of machines they are, target region & if you would like to install a new replication appliance or scale out appliance.  
+
 For my lab the selections below were used.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/cb9d54b2-141e-464b-b6da-f8a99ffaeaa9)
