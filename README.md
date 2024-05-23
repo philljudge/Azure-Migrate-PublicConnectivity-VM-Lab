@@ -11,7 +11,7 @@ Azure Migrate > Servers , Databases and Web apps > create project
 Select a Subscription, Resource group, Project name & Geography
 Under advanced chose the connectivity method you would like to use.  The options are Public Endpoint & Private Endpoint. 
 The public endpoint will communicate with azure and send data over the internet and the private option will send the data over private connectivity. 
-
+</div>
 
 </br>A VPN or express route will be needed for Private Endpoint configuration.  For the purpose of the test a public endpoint was selected.
 
@@ -129,7 +129,7 @@ The mobility agent will then be installed, once complete select the **Proceed to
 Enter the IP address & Connection Passphrase of the configuration server 
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/a681d3de-e663-4001-9058-54cf60ab0ec1)
-</div>
+
 
  
 The Connection Passphrase can be found on the configuration server.  On the desktop you should have a shortcut called Cspsconfigtool. Double click the shortcut to launch the configuration tool.  
