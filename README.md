@@ -4,8 +4,6 @@
 
 
 
-[image](https://github.com/philljudge/Azure-Migrate-PublicConnectivity-VM-Lab/assets/131694192/c25338dd-5fb7-4d1d-9cff-d4114a0fcad9)
-
 
 **Create project In Azure**
 
