@@ -1,13 +1,13 @@
 # <ins>Azure Migrate VM Lab</ins>
 
-For this project I used a windows 11 Machine at home running Hyper-V.  In Hyper V I have a Domain Cntroller, Windows Server acting as a router, File Server, SQL Server & Azure migrate appliances.  The Hyper-V Lab is connected to Azure using a VPN connection which terminates in Azure inside a VWAN Hub.</div>
+<div align="justify">For this project I used a windows 11 Machine at home running Hyper-V.  In Hyper V I have a Domain Cntroller, Windows Server acting as a router, File Server, SQL Server & Azure migrate appliances.  The Hyper-V Lab is connected to Azure using a VPN connection which terminates in Azure inside a VWAN Hub.</div>
 
 
 **Create project In Azure**
 
 Azure Migrate > Servers , Databases and Web apps > create project
 
-<div align="justify">
+
 Select a Subscription, Resource group, Project name & Geography
 Under advanced chose the connectivity method you would like to use.  The options are Public Endpoint & Private Endpoint. 
 The public endpoint will communicate with azure and send data over the internet and the private option will send the data over private connectivity. 
