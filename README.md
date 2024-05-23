@@ -3,7 +3,8 @@
 <div align="justify">For this project I used a windows 11 Machine at home running Hyper-V.  In Hyper V I have a Domain Cntroller, Windows Server acting as a router, File Server, SQL Server & Azure migrate appliances.  The Hyper-V Lab is connected to Azure using a VPN connection which terminates in Azure inside a VWAN Hub.  Below is a diagram of the Lab that I have setup</div>
 
 
-<p align="center">![image](https://github.com/philljudge/Azure-Migrate-PublicConnectivity-VM-Lab/assets/131694192/c25338dd-5fb7-4d1d-9cff-d4114a0fcad9)
+<p align="center">
+<img src=![image](https://github.com/philljudge/Azure-Migrate-PublicConnectivity-VM-Lab/assets/131694192/c25338dd-5fb7-4d1d-9cff-d4114a0fcad9)
 </p>
 
 **Create project In Azure**
