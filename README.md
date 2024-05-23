@@ -7,7 +7,7 @@ For this project I used a windows 11 Machine at home running Hyper-V.  In Hyper 
 
 Azure Migrate > Servers , Databases and Web apps > create project
 
-<div align="justify">Select a Subscription, Resource group, Project name & Geography
+Select a Subscription, Resource group, Project name & Geography
 Under advanced chose the connectivity method you would like to use.  The options are Public Endpoint & Private Endpoint. 
 The public endpoint will communicate with azure and send data over the internet and the private option will send the data over private connectivity. 
 
@@ -231,4 +231,4 @@ After the migration of my machine had completed I had issues connecting to the s
 The file share virtual machine had successfully failed over, the last thing to test was the i could still connecto the file share from my test lab running on Hyper-V.  On one of my servers in the lab I navigated to a test share that I created before the migration.  As you can see from the screen shot below, access to the file share is still working even though the server is now running in Azure.
  
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/00e1ad08-ebb6-421a-959f-36f622e9ffb0)
-</div> 
+
