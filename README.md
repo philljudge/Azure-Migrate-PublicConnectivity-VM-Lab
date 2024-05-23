@@ -58,7 +58,7 @@ On the desktop of the server double click > **Azure Migrate Appliance Configurat
 
 The appliance will check for updates and may take up to 10 minutes to finish configuring. Paste the key that was provided in the steps earlier and click verify. 
 
-The Appliance will then verify the login with your Azure account.  Please refer to the Azure Migrate documentation for the required permissions.
+The Appliance will then verify the login with your Azure account.  Please refer to the Azure Migrate documentation for the required permissions https://learn.microsoft.com/en-us/azure/migrate/tutorial-discover-physical.
 
 ![image](https://github.com/philljudge/Azure-Migrate-VM-Lab/assets/131694192/5ef0107e-c046-4cd3-bd73-677c2160a251)
 
