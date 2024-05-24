@@ -4,7 +4,8 @@
 	
 </br>Below is a diagram of the Lab that I have setup.
 
-![image](https://github.com/philljudge/Azure-Migrate-PublicConnectivity-VM-Lab/assets/131694192/04b2a49e-abcf-494c-8bbb-1c529faabed6)
+![image](https://github.com/philljudge/Azure-Migrate-PublicConnectivity-VM-Lab/assets/131694192/6d2db58a-fd22-4679-b486-0bda54718601)
+
 
 
 
